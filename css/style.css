@@ -89,3 +89,18 @@ header {
     font-weight: bold;
     text-decoration: underline;
 }
+
+
+/* ---------support section ----------  */
+.support{
+    width: 1100px;
+    margin:60px auto;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+}
+.support_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+    text-align: center;
+}
