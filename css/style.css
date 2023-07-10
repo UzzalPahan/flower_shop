@@ -55,6 +55,8 @@ header {
 }
 .title > h1 {
   padding-bottom: 10px;
+  color: #272727;
+  font-size: 35px;
 }
 
 .title > p {
@@ -103,4 +105,38 @@ header {
     justify-content: space-around;
     padding: 60px 0;
     text-align: center;
+}
+
+/* -----------signup section ----------- */
+.signup{
+    background-color: #fceef1;
+}
+.signup_container{
+    max-width: 1100px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup_text{
+    text-align: center;
+}
+.signup_text > h1{
+    font-size: 35px;
+    color: #272727;
+}
+.signup_text > h1> .red{
+    color: #e55473;
+}
+.signup_text > p{
+    padding: 20px;
+    line-height: 25px;
+    color: #272727;
+}
+.signup_text >button{
+    padding: 10px 20px;
+    background-color: #e55473;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
